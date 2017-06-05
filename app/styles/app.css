@@ -1,0 +1,36 @@
+.maincontent{
+  /*background-color:grey;*/
+  border:1px solid #000;
+  width:100px;
+  height:150px;
+  margin-top:5px;
+}
+img{
+  margin-left: 15px;
+  margin-bottom: 2px;
+}
+.title{
+  color:red;
+  font-size:14px;
+}
+.owner{
+  color:blue;
+  font-size:14px;
+}
+.city{
+  color:green;
+  font-size:14px;
+}
+/*.result{*/
+  /*background-color: grey;
+  float:right;
+}
+.list{
+  top:10px;
+}
+/*.mainrow{
+  width:100%;
+}
+.source{
+  width:50%;
+}*/*/

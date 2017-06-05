@@ -1,0 +1,10 @@
+<div class="main">
+<div class="row">
+{{#each model as |rental|}}
+<div class="list col-sm-3">
+{{rental-list rentalhome=rental}}
+</div>
+{{/each}}
+</div>
+</div>
+{{outlet}}

@@ -1,10 +1,13 @@
 <div class="main">
-<div class="row">
+  <h3>SampleApp</h3>
+<div class="row container">
 {{#each model as |rental|}}
 <div class="list col-sm-3">
 {{rental-list rentalhome=rental}}
 </div>
 {{/each}}
 </div>
+<div class="row target">
+  {{outlet}}
 </div>
-{{outlet}}
+</div>
